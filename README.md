@@ -30,7 +30,7 @@ I wanted to understand every line on the page. A framework would have given me a
 - **URL hash routing.** Each tab has its own hash, so a view is linkable and the back button works.
 - **Keyboard navigation.** Arrow keys move between tabs. Focus states are visible.
 - **Dark and light.** Both are designed, not one inverted. The toggle respects the system preference on first load.
-- **No tracking.** No analytics, no third-party scripts, no fonts loaded from someone else's server.
+- **No tracking.** No analytics and no third-party scripts. The only outside request is the Google Fonts stylesheet.
 - **Responsive to phone width** with no horizontal scroll.
 
 ## Stack
