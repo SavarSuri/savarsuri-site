@@ -14,8 +14,8 @@ One self-contained HTML file. No framework, no build step, no dependencies. Six 
 |---|---|
 | Overview | Who I am and what I'm working toward, in one screen |
 | Systems | Projects, what they do, what broke, what I fixed |
-| Record | Coursework and academic detail |
-| Credentials | Certifications, earned and in progress, with dates |
+| Record | Work history: internship, contract and tutoring roles |
+| Credentials | Certifications, earned and in progress, plus education and coursework |
 | Stack | Languages, tools, platforms |
 | Contact | How to reach me |
 
@@ -27,9 +27,9 @@ I wanted to understand every line on the page. A framework would have given me a
 
 ## Details worth noting
 
-- **URL hash routing.** Each tab has its own hash, so a view is linkable and the back button works.
+- **URL hash routing.** Each tab has its own hash, so any view can be linked to directly.
 - **Keyboard navigation.** Arrow keys move between tabs. Focus states are visible.
-- **Dark and light.** Both are designed, not one inverted. The toggle respects the system preference on first load.
+- **Dark and light.** Both are designed, not one inverted. Opens in dark; the toggle switches to light and remembers the choice.
 - **No tracking.** No analytics and no third-party scripts. The only outside request is the Google Fonts stylesheet.
 - **Responsive to phone width** with no horizontal scroll.
 
